@@ -3,6 +3,11 @@
     //The Controller allows us to code in the widgets we made in our fxml file. For example,
     // an action to add a button when it is clicked.
 
+    //You link the fxml file with the controller with the key fx:controller "..."
+    //JDBC means Java DataBase Connectivity, and it is an API for connecting a Java Application to a Database
+
+    //A schema in MySQL is equivalent to a database
+
 package com.javafxproject.javafx_login_and_signup_form;
 
 import javafx.application.Application;
