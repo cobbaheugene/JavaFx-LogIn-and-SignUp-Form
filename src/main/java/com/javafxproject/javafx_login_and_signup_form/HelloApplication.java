@@ -1,3 +1,8 @@
+    //Notes:
+    //In JavaFX, the fxml file allows us to create the appearance of the application
+    //The Controller allows us to code in the widgets we made in our fxml file. For example,
+    // an action to add a button when it is clicked.
+
 package com.javafxproject.javafx_login_and_signup_form;
 
 import javafx.application.Application;
