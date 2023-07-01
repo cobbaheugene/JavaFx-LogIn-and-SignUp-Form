@@ -8,6 +8,7 @@
 
     //A schema in MySQL is equivalent to a database
 
+
 package com.javafxproject.javafx_login_and_signup_form;
 
 import javafx.application.Application;
@@ -31,3 +32,8 @@ public class HelloApplication extends Application {
         launch();
     }
 }
+
+    // Blue Hex - 0066F5
+    // White Hex - FFFFFF
+    // Anchor pane is a layout that allows us to place components at specific distances from its sides. It is
+    // essentially a drag and drop
