@@ -26,13 +26,25 @@
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="400.0" prefWidth="420.0">
+      <AnchorPane prefHeight="400.0" prefWidth="420.0" style="-fx-background-color: #F2F2EB;">
          <children>
             <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="114.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@locklogo.jpg" />
                </image>
             </ImageView>
+            <Label layoutX="42.0" layoutY="192.0" text="Username:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="243.0" text="Password:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="140.0" layoutY="193.0" prefHeight="26.0" prefWidth="192.0" />
+            <TextField layoutX="140.0" layoutY="243.0" prefHeight="26.0" prefWidth="192.0" />
          </children></AnchorPane>
    </children>
 </HBox>
