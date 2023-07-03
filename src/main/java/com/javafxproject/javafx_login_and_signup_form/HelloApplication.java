@@ -37,3 +37,5 @@ public class HelloApplication extends Application {
     // White Hex - FFFFFF
     // Anchor pane is a layout that allows us to place components at specific distances from its sides. It is
     // essentially a drag and drop
+
+    // fx:id allows us to interact with the widgets in our Controller
