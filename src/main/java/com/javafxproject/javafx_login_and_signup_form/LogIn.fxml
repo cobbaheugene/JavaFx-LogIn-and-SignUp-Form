@@ -45,6 +45,21 @@
             </Label>
             <TextField layoutX="140.0" layoutY="193.0" prefHeight="26.0" prefWidth="192.0" />
             <TextField layoutX="140.0" layoutY="243.0" prefHeight="26.0" prefWidth="192.0" />
+            <Button layoutX="88.0" layoutY="295.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="201.0" style="-fx-background-color: #FFE5B2;" text="LogIn">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="114.0" layoutY="344.0" text="New User?">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="202.0" layoutY="339.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-cursor: threefinger;" text="SignUp" textFill="#4158bc">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
          </children></AnchorPane>
    </children>
 </HBox>
