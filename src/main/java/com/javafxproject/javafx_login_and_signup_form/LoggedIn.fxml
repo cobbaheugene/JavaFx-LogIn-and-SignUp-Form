@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="sample.LogInController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LogInController">
+   <children>
+      <Label layoutX="252.0" layoutY="67.0" text="Welcome!">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="125.0" text="Your favorite sermon hub is Pastor Chris Digital Library">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="274.0" layoutY="200.0" mnemonicParsing="false" text="Log Out" />
+   </children>
 </AnchorPane>
