@@ -39,3 +39,5 @@ public class HelloApplication extends Application {
     // essentially a drag and drop
 
     // fx:id allows us to interact with the widgets in our Controller
+    // A radio button is a control that can either be selected or deselected
+    // Radio buttons are combined in a group where only one can be selected at a time
