@@ -41,3 +41,7 @@ public class HelloApplication extends Application {
     // fx:id allows us to interact with the widgets in our Controller
     // A radio button is a control that can either be selected or deselected
     // Radio buttons are combined in a group where only one can be selected at a time
+
+    //Initialization is an interface used for controller initialization
+    // method to override is initialize ( )
+    // initialize is called after all

@@ -6,12 +6,12 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F2F2EB;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LogInController">
    <children>
-      <Label layoutX="252.0" layoutY="67.0" text="Welcome!">
+      <Label fx:id="label_welcome" layoutX="252.0" layoutY="67.0" text="Welcome!">
          <font>
             <Font name="Arial Rounded MT Bold" size="20.0" />
          </font>
       </Label>
-      <Label layoutX="32.0" layoutY="125.0" text="Your favorite sermon hub is Pastor Chris Digital Library">
+      <Label fx:id="label_fav_sermon" layoutX="32.0" layoutY="125.0" text="Your favorite sermon hub is Pastor Chris Digital Library">
          <font>
             <Font name="Arial Rounded MT Bold" size="20.0" />
          </font>
