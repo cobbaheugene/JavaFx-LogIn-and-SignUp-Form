@@ -4,8 +4,12 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.beans.EventHandler;
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.beans.EventHandler;
+import javafx.event.ActionEvent;
 
 public class LogInController implements Initializable {
 
@@ -19,7 +23,9 @@ public class LogInController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
-        button_logout.setOnAction
+        button_logout.setOnAction(new EventHandler<ActionEvent>()){
 
+
+        }
     }
 }
